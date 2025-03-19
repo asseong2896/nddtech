@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" data-layout-mode="detached" data-topbar-color="dark" data-menu-color="light" data-sidenav-user="true">
+<head>
+  <meta charset="utf-8" />
+  <title>NDD Tech Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="NDD Tech is a premier provider of auxiliary, automation, electrical, HVAC contracting, aluminum, and glass works." name="description" />
+  <meta content="NDD Tech" name="author" />
+
+  <!-- App favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+  <!-- Theme Config Js -->
+  <script src="assets/js/hyper-config.js"></script>
+
+  <!-- App css -->
+  <link href="assets/css/app-modern.min.css" rel="stylesheet" type="text/css" id="app-style" />
+
+  <!-- Icons css -->
+  <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Custom CSS Enhancements -->
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /* Navbar: Ensure logo and container alignment */
+    .navbar {
+      background-color: #1a1a1a;
+    }
+    .navbar-brand img {
+      transition: transform 0.3s;
+    }
+    .navbar-brand img:hover {
+      transform: scale(1.05);
+    }
+    .navbar-dark .navbar-nav .nav-link {
+      color: #ddd;
+      transition: color 0.3s;
+    }
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link.active {
+      color: #fff;
+    }
+    /* Hero Section: Use a gradient background that spans the full container width */
+    .hero-section {
+      background: linear-gradient(135deg, #1d2b64, #f8cdda);
+      color: #fff;
+      padding: 100px 0;
+      position: relative;
+    }
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
+    .hero-section .container {
+      position: relative;
+      z-index: 2;
+    }
+    .hero-title {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+    .hero-section p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    }
+    /* Footer Logo Centering */
+    footer .logo-dark {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR START -->
+  <nav class="navbar navbar-expand-lg py-lg-3 navbar-dark">
+    <div class="container">
+      <!-- Logo with home link -->
+      <a href="index.html" class="navbar-brand me-lg-5">
+        <img src="assets/images/logo.png" alt="NDD Tech Logo" class="logo-dark" style="height:60px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="mdi mdi-menu"></i>
+      </button>
+      <!-- Menus -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <!-- Left Menu -->
+        <ul class="navbar-nav me-auto align-items-center">
+          <li class="nav-item mx-lg-1">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a class="nav-link" href="#electrical-services">Services</a>
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a class="nav-link" href="#projects-completed">Projects Completed</a>
+          </li>
+          <li class="nav-item mx-lg-1">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR END -->
+
+  <!-- START HERO -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <div class="mt-md-4">
+            <div>
+              <span class="text-white-50 ms-1">Welcome to the NDD Tech Homepage</span>
+            </div>
+            <h2 class="text-white fw-normal mb-4 mt-3 hero-title">
+              "Power. Precision. Innovation. NDD Tech—Built to Dominate."
+            </h2>
+            <p class="mb-4 font-16 text-white-50">
+              We believe that learning never stops. We continuously pursue innovative solutions to enhance our services and deliver the best experience to our clients.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-5 offset-md-2">
+          <div class="text-md-end mt-3 mt-md-0">
+            <img src="assets/images/nddhome.png" alt="NDD Tech Hero Image" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END HERO -->
+
+  <!-- ABOUT US SECTION -->
+  <section class="py-5" id="about-us">
+    <div class="container">
+      <div class="row py-4">
+        <div class="col-lg-12">
+          <div class="text-center">
+            <h2 class="mt-0">About Us</h2>
+          </div>
+        </div>
+      </div>
+      <p class="mb-4 font-16 text-black-50">
+        Established in 2018, <strong>NDD Tech</strong> is a premier provider of auxiliary, automation, electrical, and HVAC contracting & subcontracting services, as well as aluminum and glass works. With a strong commitment to excellence, we continuously deliver remarkable technical support and innovative solutions tailored to meet our clients' diverse needs.
+      </p>
+      <p class="mb-4 font-16 text-black-50">
+        At <strong>NDD Tech</strong>, we are guided by our three core values:
+      </p>
+      <ul class="list-unstyled mb-4">
+        <li><strong>Commitment</strong> – We empower our people to excel, ensuring we not only meet but exceed client expectations.</li>
+        <li><strong>Efficiency</strong> – We prioritize precision and productivity, delivering top-tier services without compromising quality.</li>
+        <li><strong>Innovation</strong> – We embrace continuous learning and cutting-edge advancements to provide progressive, future-ready solutions.</li>
+      </ul>
+    </div>
+  </section>
+  <!-- END ABOUT US SECTION -->
+
+  <!-- ELECTRICAL SERVICES SECTION -->
+  <section class="py-5 bg-light-lighten border-top border-bottom border-light" id="electrical-services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center">
+            <h3>Electrical Services</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-1">
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/electrical-services/lp.png" alt="Lightings and Power" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">Lightings &amp; Power</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/electrical-services/bms.png" alt="Building Management System" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">BMS – Building Management System</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/electrical-services/cpm.png" alt="Chiller Plant Management" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">CPM – Chiller Plant Management</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/electrical-services/acs.png" alt="Access Control System" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">ACS – Access Control System</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/electrical-services/fdas.png" alt="Fire Detection &amp; Alarm System" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">FDAS – Fire Detection &amp; Alarm System</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/electrical-services/cctv.png" alt="CCTV System" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">CCTV – Closed-Circuit Television</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REFRIGERATION & AIR CONDITIONING SERVICES SECTION -->
+  <section class="py-5 bg-light-lighten border-top border-bottom border-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center">
+            <h3>Refrigeration &amp; Air Conditioning Services</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-1">
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/ref-aircon-services/WT.png" alt="Window Type Cleaning" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">Window Type Cleaning</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/ref-aircon-services/st.png" alt="Split Type Cleaning" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">Split Type Cleaning</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/ref-aircon-services/sai.png" alt="Supply and Installation" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">Supply &amp; Installation</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/ref-aircon-services/rc.png" alt="Refrigerant Charging" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">Refrigerant Charging</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/ref-aircon-services/drr.png" alt="Dismantling, Relocation &amp; Reprocessing" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">Dismantling, Relocation &amp; Reprocessing</h5>
+          </div>
+        </div>
+        <!-- Service Item -->
+        <div class="col-lg-4 col-md-6">
+          <div class="demo-box text-center mt-3">
+            <img src="assets/images/ref-aircon-services/ram.png" alt="Repair and Maintenance" class="img-fluid shadow-sm rounded">
+            <h5 class="mt-3 f-17">Repair &amp; Maintenance</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS COMPLETED SECTION -->
+  <section class="py-5" id="projects-completed">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center">
+            <h2>Projects Completed</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Project 1 -->
+      <div class="row mt-2 py-5 align-items-center">
+        <div class="col-lg-5 col-md-6">
+          <img src="assets/images/projects-completed/festival-mall.jpg" class="img-fluid" alt="Festival Mall">
+        </div>
+        <div class="col-lg-6 offset-md-1 col-md-5">
+          <h3 class="fw-normal">Festival Mall</h3>
+          <p class="text-muted mt-3">Location: Filinvest City, Alabang, Muntinlupa</p>
+          <div class="mt-4">
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Building Management</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Roughing and Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Cable Pulling</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> DDC Panel Termination</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Field Device Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Testing and Commissioning</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="row pb-3 pt-5 align-items-center">
+        <div class="col-lg-6 col-md-5">
+          <h3 class="fw-normal">Fora Mall</h3>
+          <p class="text-muted mt-3">Location: Tagaytay City, Cavite</p>
+          <div class="mt-4">
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Building Management</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Roughing and Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Cabling and Pulling</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> DDC Panel Termination</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Field Device Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Testing and Commissioning</p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 offset-md-1">
+          <img src="assets/images/projects-completed/fora-mall.jpg" class="img-fluid" alt="Fora Mall">
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="row mt-2 py-5 align-items-center">
+        <div class="col-lg-5 col-md-6">
+          <img src="assets/images/projects-completed/st-microelectronics.jpg" class="img-fluid" alt="Samsung Micro Electronics">
+        </div>
+        <div class="col-lg-6 offset-md-1 col-md-5">
+          <h3 class="fw-normal">Samsung Micro Electronics</h3>
+          <p class="text-muted mt-3">Location: Calamba City, Laguna</p>
+          <div class="mt-4">
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Fire Detection &amp; Alarm System</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Roughing and Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Cable Pulling</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> FDAS Panel Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Fire Alarm Device Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Testing and Commissioning</p>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="row pb-3 pt-5 align-items-center">
+        <div class="col-lg-6 col-md-5">
+          <h3 class="fw-normal">Mega-Block Filinvest Axist Tower</h3>
+          <p class="text-muted mt-3">Location: Filinvest Corporate City, Alabang, Muntinlupa City</p>
+          <div class="mt-4">
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Building Management</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Roughing and Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Cable Pulling</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> DDC Panel Termination</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Field Device Installation</p>
+            <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Testing and Commissioning</p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 offset-md-1">
+          <img src="assets/images/projects-completed/mega-block.jpg" class="img-fluid" alt="Mega-Block Filinvest Axist Tower">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END PROJECTS COMPLETED SECTION -->
+
+  <!-- AUTHORIZED DEALER SECTION -->
+  <section class="py-5 bg-light-lighten border-top border-bottom border-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center">
+            <h1 class="mt-0"><i class="mdi mdi-tag-multiple"></i></h1>
+            <h3>We are Authorized Dealer and Installer of the following;</h3>
+            <div class="col-lg-8 col-md-10 mx-auto text-center">
+              <img src="assets/images/PARTNER.png" class="img-fluid d-block mx-auto" alt="Partner Image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END AUTHORIZED DEALER SECTION -->
+
+  <!-- CONTACT SECTION -->
+  <section class="py-5 bg-light-lighten border-top border-bottom border-light" id="contact-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center">
+            <h3>Get In <span class="text-primary">Touch</span></h3>
+            <p class="text-muted mt-2">
+              Please fill out the form below and we will get back to you shortly. For additional information, feel free to contact us.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3">
+        <div class="col-md-4">
+          <p class="text-muted"><span class="fw-bold">Customer Support:</span><br>
+            <span class="d-block mt-1">0945-758-0896</span>
+          </p>
+          <p class="text-muted mt-4"><span class="fw-bold">Email Address:</span><br>
+            <span class="d-block mt-1">nddtech2018@gmail.com</span>
+          </p>
+          <p class="text-muted mt-4"><span class="fw-bold">Office Address:</span><br>
+            <span class="d-block mt-1">1551 National Highway, Brgy. Dila, City of Santa Rosa, Laguna</span>
+          </p>
+          <p class="text-muted mt-4"><span class="fw-bold">Office Hours:</span><br>
+            <span class="d-block mt-1">Monday - Friday: 8:00 AM to 5:00 PM</span>
+            <span>Saturday: 8:00 AM to 3:00 PM</span>
+          </p>
+        </div>
+        <div class="col-md-8">
+          <form action="mailto:nddtech2018@gmail.com" method="post" enctype="text/plain">
+            <div class="row mt-4">
+              <div class="col-lg-6">
+                <div class="mb-2">
+                  <label for="fullname" class="form-label">Your Name</label>
+                  <input class="form-control form-control-light" type="text" id="fullname" name="fullname" placeholder="Name..." required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="mb-2">
+                  <label for="emailaddress" class="form-label">Your Email</label>
+                  <input class="form-control form-control-light" type="email" id="emailaddress" name="emailaddress" placeholder="Enter your email..." required>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-1">
+              <div class="col-lg-12">
+                <div class="mb-2">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input class="form-control form-control-light" type="text" id="subject" name="subject" placeholder="Enter subject..." required>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-1">
+              <div class="col-lg-12">
+                <div class="mb-2">
+                  <label for="comments" class="form-label">Message</label>
+                  <textarea id="comments" name="comments" rows="4" class="form-control form-control-light" placeholder="Type your message here..." required></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-12 text-end">
+                <button type="submit" class="btn btn-primary">
+                  Send a Message <i class="mdi mdi-telegram ms-1"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END CONTACT SECTION -->
+
+  <!-- FOOTER -->
+  <footer class="bg-dark py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <a href="#home">
+            <img src="assets/images/logo.png" alt="NDD Tech Logo" class="logo-dark d-block mx-auto" style="height:60px;" />
+          </a>
+          <p class="text-muted mt-4 text-center">"Power. Precision. Innovation. NDD Tech—Built to Dominate."</p>
+          <ul class="social-list list-inline mt-3 d-flex justify-content-center">
+            <li class="list-inline-item text-center">
+                <a href="https://www.facebook.com/people/Nddtech-Electrical-Automation-Services/100063959112796/" class="social-list-item border-primary text-primary"><i class="mdi mdi-facebook"></i></a>
+            </li>
+            <li class="list-inline-item text-center">
+                <a href="mailto:nddtech2018@gmail.com" class="social-list-item border-danger text-danger"><i class="mdi mdi-google"></i></a>
+            </li>
+            
+        </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="mt-5">
+            <p class="text-muted mt-4 text-center mb-0">© <script>document.write(new Date().getFullYear())</script> NDD Tech. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+  <!-- Vendor js -->
+  <script src="assets/js/vendor.min.js"></script>
+  <!-- App js -->
+  <script src="assets/js/app.min.js"></script>
+</body>
+</html>
